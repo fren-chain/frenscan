@@ -1,0 +1,5 @@
+<title>
+  <%= gettext("%{subnetwork} %{network} Explorer", subnetwork: LayoutView.subnetwork_title(), network: LayoutView.network_title()) %>
+</title>
+<meta name="description" content="<%= gettext "FrenScan provides analytic data, API, and Smart Contract tools for FrenChain" %>">
+<meta name="keywords" content="FrenChain, FREN, blockchain, api, analytics, address, smart contract">
